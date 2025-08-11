@@ -56,7 +56,7 @@ export default async function HomePage() {
   return (
     <main className="bg-gray-50 text-gray-800">
       {/* Hero Section */}
-      <section className="relative w-full h-[70vh] flex items-center justify-center text-center text-white">
+      <section className="relative w-screen h-[50vh] flex items-center justify-center text-center text-white">
         {heroImageUrl && (
           <img
             src={heroImageUrl}
